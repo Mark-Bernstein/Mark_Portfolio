@@ -1,0 +1,170 @@
+header {
+  background: #4aaaa5;
+}
+
+.top-white-bar-relative {
+  background: white;
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  border-bottom: 3px solid #cccccc;
+  overflow: hidden;
+}
+
+.my-name {
+  background-color: #4aaaa5;
+  font-family: 'Georgia';
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 22.6%;
+  margin: 0;
+}
+
+.links {
+  float: left;
+  padding: 30px;
+  text-align: right;
+  position: absolute;
+  bottom: -10px;
+  margin: 0;
+  width: 75%;
+  color: #4aaaa5;
+  font-family: Helvetica;
+}
+
+.background-pattern {
+  background-image: url(../images/background-image.png);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  padding: 20px;
+  width: 50%;
+  height: 500px;
+  border: 1px solid #dddddd;
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  top: 35px;
+  margin-bottom: 100px;
+}
+
+.container1 {
+  padding: 20px;
+  width: 50%;
+  height: 800px;
+  border: 1px solid #dddddd;
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  top: 35px;
+  margin-bottom: 100px;
+}
+
+.container2 {
+  padding: 20px;
+  width: 50%;
+  height: 600px;
+  border: 1px solid #dddddd;
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  top: 35px;
+  margin-bottom: 100px;
+}
+
+body {
+  clear: both;
+  overflow: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 188%;
+    color: #777777;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: left;
+    margin: 0 auto;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 10px auto;
+    text-align: left;
+    color: #dddddd; 
+    padding: 0 0 10px 0;
+  }
+
+  #bio-image {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    float: left;
+    padding: 10px 10px 0 0;
+  }
+
+  p {
+    font-size: 18px;
+
+    margin: 10px auto;
+    width: 100%;
+    color: #777777;
+    line-height: 180%;
+    text-align: justify;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+.images {
+  width: 270px;
+  height: 225px;
+  margin: 0 auto;
+  padding-right: 10px;
+}
+
+#message {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin: 0 auto;
+}
+
+#name-email {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #dddddd;;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+ 
+
+
+
+  
+
+
+  

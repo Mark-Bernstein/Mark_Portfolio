@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="top-white-bar-relative">
+    <section class="my-name">Mark Bernstein</section>
+    <section class="links">
+      <a href="index.html">About </a> |
+      <a href="portfolio.html">Portfolio</a> |
+      <a href="contact.html">Contact</a>
+    </section>
+  </div>
+
+  <div class="background-pattern">
+    <div class="container2">
+      <h1>Contact</h1>
+      <h2>_______________________________________________________________</h2>
+      <div>
+        <form action="/action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="name-email" name="name" placeholder="John Smith">
+
+          <label for="email">Email</label>
+          <input type="text" id="name-email" name="email" placeholder="example@gmail.com">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height: 300px">
+          </textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">Copyright ©</footer>
+</body>
+
+<style>
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+</style>
+
+</html>
